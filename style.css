@@ -1,0 +1,27 @@
+body {
+  background-color: #33d7b6;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.link-divider {
+  margin: 0 0.3rem;
+}
+
+small {
+  font-style: italic;
+}
+
+footer {
+  position: static;
+  bottom: 0; /*para ficar fixado no fundo*/
+}
+
+.container {
+  margin: 0 0.5rem;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--css poderia ser dentro da head, mas nao é indicado. sempre melhor ter uma pagina separada pro css-->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <a href="#">HOME</a>
+          <span class="link-divider">|</span>
+          <a href="#main-content">ABOUT US</a>
+          <span class="link-divider">| </span>
+          <a href="#">MENU</a>
+          <span class="link-divider">|</span>
+          <a href="#">CONTACT US</a>
+        </nav>
+      </header>
+
+      <main id="main-content">
+        <!--faria scroll pra pagina nesse ponto, colocando o link da id la em cima em ABOUT US, por ex-->
+        <h1>The IronHack Breakfast Place</h1>
+
+        <p>Here you wil find all sorts of delicious treats</p>
+
+        <!--a gente sabe quais tags tem uma que fecha, tipo <title></title> quando ela pode ter filhos-->
+
+        <figure>
+          <img src="./breakfast.jpg" alt="a breakfast table with some food" />
+          <figcaption><small>powered by brekkie.</small></figcaption>
+        </figure>
+      </main>
+
+      <footer>
+        <p>Made with love by IronHack</p>
+      </footer>
+    </div>
+  </body>
+</html>
